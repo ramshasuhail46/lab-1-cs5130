@@ -1,6 +1,5 @@
 import cv2 as cv
 import numpy as np
-from skimage.metrics import structural_similarity as ssim
 
 def calculate_similarity(original, mosaic):
     """
